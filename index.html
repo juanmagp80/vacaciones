@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cuenta Regresiva con GIF</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+  </head>
+  <body>
+    <div class="cuenta-regresiva">
+      <h1>VACACIONES 2023</h1>
+      <div class="formulario">
+        <label for="fecha">Introduce la fecha de inicio de vacaciones:</label>
+        <input type="date" id="fecha">
+        <input type="time" id="hora">
+        <button id="boton">Empezar</button>
+      </div>
+      <div class="tiempo-restante">
+      
+        <div class="dias"></div>
+        <div class="horas"></div>
+        <div class="minutos"></div>
+        <div class="segundos"></div>
+      </div>
+      <img id="gif" src="./vacaciones.gif" alt="Cuenta Regresiva" style="display:none;">
+    </div>
+    <script src="./cuenta-regresiva.js"></script>
+  </body>
+</html>
